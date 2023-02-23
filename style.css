@@ -1,0 +1,42 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.nav-bar {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  padding-inline: 2rem;
+}
+
+.details-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.jokesImg {
+  width: 25rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.resultJoke,
+.resultDelivery,
+.resultSetup {
+  display: flex;
+  justify-content: center;
+}
+
