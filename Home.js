@@ -13,10 +13,13 @@ async function callApi() {
 
   results.forEach(function (result) {
     amountContainer.innerHTML += `
-      <p class="resultJoke">:${result.id} </p>
+     <a href="./details.html?id=${result.setup}" <p class="resultJoke">:${result.id} </p>
       <p class="resultSetup">:${result.setup} </p>
       <p class="resultDelivery">:${result.delivery} </p>
       `;
   });
 }
 callApi();
+
+
+

@@ -37,6 +37,10 @@ h1 {
 .resultDelivery,
 .resultSetup {
   display: flex;
-  justify-content: center;
+  justify-content:center;
+  text-decoration: none;
+  color: black;
+ line-height: 3rem;
+ font-size: 17px;
 }
 

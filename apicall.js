@@ -15,18 +15,15 @@ apiCaller();
 
 //DETAILS PAGE APICALL
 
-
-
-//ASDASDASD
+//
 
 const jokesContainer = document.getElementById("jokes-container");
 
 fetch("https://v2.jokeapi.dev/joke/Any")
   .then((response) => response.json())
   .then((data) => {
-    const results = Array.isArray(data) ? data : [data]; 
+    const results = Array.isArray(data) ? data : [data];
 
-    
     results.forEach((joke) => {
       const jokeDiv = document.createElement("div");
       const jokeSetup = document.createElement("p");
@@ -42,12 +39,4 @@ fetch("https://v2.jokeapi.dev/joke/Any")
   })
   .catch((error) => console.error(error));
 
-//GGG
-
-
-
-
-
-
-    
-    
+//
